@@ -145,7 +145,6 @@
     <Resource Include="View\Main\dist\index.html" />
     <Resource Include="View\Main\public\favicon.ico" />
     <Resource Include="View\Main\dist\main.js" />
-    <Resource Include="View\Main\dist\service-worker.js" />
     <Resource Include="View\Main\dist\static\css\main.css" />
     <Resource Include="View\Main\dist\static\media\logo.svg" />
     <Content Include="View\Main\public\index.html" />

@@ -4,7 +4,7 @@ class Command {
     constructor(command, args) {
         this.command = command;
         this.args = args;
-        if (command !== null && isObservable(command.CanExecuteCount)) {
+        if (command != null && isObservable(command.CanExecuteCount)) {
             observe(command, 'CanExecuteCount', () => this.command.CanExecute(this.args));
         }
     }
