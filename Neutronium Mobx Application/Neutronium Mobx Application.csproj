@@ -160,7 +160,6 @@
     <Content Include="View\Main\src\index.js" />
     <Content Include="View\Main\src\logo.svg" />
     <Content Include="View\Main\src\mobxManager.js" />
-    <Content Include="View\Main\src\registerServiceWorker.js" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
