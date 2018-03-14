@@ -173,10 +173,12 @@
     <Error Condition="!Exists('..\packages\Unofficial.Chromiumfx.3.2924.5\build\Unofficial.Chromiumfx.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Unofficial.Chromiumfx.3.2924.5\build\Unofficial.Chromiumfx.targets'))" />
     <Error Condition="!Exists('..\packages\Neutronium.JavascriptFramework.Mobx.1.3.1\build\Neutronium.JavascriptFramework.Mobx.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Neutronium.JavascriptFramework.Mobx.1.3.1\build\Neutronium.JavascriptFramework.Mobx.props'))" />
     <Error Condition="!Exists('..\packages\Neutronium.WebBrowserEngine.ChromiumFx.1.3.1\build\Neutronium.WebBrowserEngine.ChromiumFx.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Neutronium.WebBrowserEngine.ChromiumFx.1.3.1\build\Neutronium.WebBrowserEngine.ChromiumFx.props'))" />
+    <Error Condition="!Exists('..\packages\Neutronium.WebBrowserEngine.ChromiumFx.1.3.1\build\Neutronium.WebBrowserEngine.ChromiumFx.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Neutronium.WebBrowserEngine.ChromiumFx.1.3.1\build\Neutronium.WebBrowserEngine.ChromiumFx.targets'))" />
   </Target>
   <Import Project="..\packages\Unofficial.Cef.for.Chromiumfx.x64.3.2924.1\build\Unofficial.Cef.for.Chromiumfx.x64.targets" Condition="Exists('..\packages\Unofficial.Cef.for.Chromiumfx.x64.3.2924.1\build\Unofficial.Cef.for.Chromiumfx.x64.targets')" />
   <Import Project="..\packages\Unofficial.Cef.for.Chromiumfx.x86.3.2924.1\build\Unofficial.Cef.for.Chromiumfx.x86.targets" Condition="Exists('..\packages\Unofficial.Cef.for.Chromiumfx.x86.3.2924.1\build\Unofficial.Cef.for.Chromiumfx.x86.targets')" />
   <Import Project="..\packages\Unofficial.Chromiumfx.3.2924.5\build\Unofficial.Chromiumfx.targets" Condition="Exists('..\packages\Unofficial.Chromiumfx.3.2924.5\build\Unofficial.Chromiumfx.targets')" />
+  <Import Project="..\packages\Neutronium.WebBrowserEngine.ChromiumFx.1.3.1\build\Neutronium.WebBrowserEngine.ChromiumFx.targets" Condition="Exists('..\packages\Neutronium.WebBrowserEngine.ChromiumFx.1.3.1\build\Neutronium.WebBrowserEngine.ChromiumFx.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
