@@ -1,4 +1,4 @@
-﻿namespace Neutronium_Mobx_Application.ViewModel 
+﻿namespace Neutronium.Mobx.Application.ViewModel
 {
     public class HelloViewModel 
     {

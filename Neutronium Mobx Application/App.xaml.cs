@@ -5,7 +5,7 @@ using System.Linq;
 using System;
 using Neutronium.JavascriptFramework.mobx;
 
-namespace Neutronium_Mobx_Application 
+namespace Neutronium.Mobx.Application
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -15,8 +15,8 @@ namespace Neutronium_Mobx_Application
         public ApplicationMode Mode { get; private set; }
         public bool RunTimeOnly => (Mode != ApplicationMode.Dev);
         public bool Debug => (Mode != ApplicationMode.Production);
-        public Uri BuildUri(string relativepath) => (Mode == ApplicationMode.Dev) ?
-                                new Uri("http://localhost:8080/index.html") : new Uri($"pack://application:,,,/View/{relativepath}/dist/index.html");
+        public Uri Uri => (Mode == ApplicationMode.Dev) ?
+                                new Uri("http://localhost:8080/index.html") : new Uri($"pack://application:,,,/View/dist/index.html");
 
         public static App MainApplication => Current as App;
 
